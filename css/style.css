@@ -190,3 +190,6 @@ h4.footer {
 	padding: 8px;
 
 }
+br {
+	clear: both;
+}
