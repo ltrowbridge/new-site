@@ -131,7 +131,6 @@ button:hover {
 .devices {
 	display: inline-block;
 	min-width: 30%;
-	border: 1px solid black;
 	margin-bottom: 3em;
 	margin-left: 1em;
 }
@@ -141,48 +140,44 @@ button:hover {
 	 margin-top: 1em;
 }
 /*Footer Section Styles*/
-
-footer > .content {
-	border-top: 1px solid LightGray;
-	margin-top: .7em;
+/**
+ * Footer
+ */
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
 }
- 
-h4.footer {
-	font-size: 1em;
-	color: #3E3E3E;
-	font-weight: 200;
-
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
 }
-
-.icons li { /* why won't this work if it's on the UL instead of the LI?*/
-	display: inline-block;
-	margin-left: 1em; /*How do I get the icons to center?*/
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
 }
-
-.copyright {
-	color: #777;
-	font-size: .8em;
+.social .icons > li:hover {
+    cursor: pointer;
 }
-
-.fa.fa-twitter { /*How do I write these styles?*/
-	color: blue;
-	border: 1px solid gray;
-	border-radius: 50%;
-	padding: 8px;
+.social .twitter {
+    color: #55acee;
 }
-
-
-.fa.fa-facebook {
-	color: blue;
-	border: 1px solid gray;
-	border-radius: 50%;
-	padding: 8px;
+.social .facebook {
+    color: #4c66a4;
 }
-
-.fa.fa-instagram {
-	color: blue;
-	border: 1px solid gray;
-	border-radius: 50%;
-	padding: 8px;
-
+.social .instagram {
+    color: #3f729b;
+}
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
 }
